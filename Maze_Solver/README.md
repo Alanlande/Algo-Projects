@@ -7,7 +7,7 @@
 - stack: the array representing the stack
 - top: the index of the top element of the stack (will point directly at the top element in the stack)
 - numElems: the number of elements currently in the stack 
-- There are 5 fully implemented member functions:
+There are 5 fully implemented member functions:
 
 - init: the constructor which initializes an empty stack
 - repr: the printing function the displays the stack’s info in a readable format
@@ -26,7 +26,7 @@
 - front: the index of the front element of the queue (will point directly at the front element), this is the next element to be popped
 - rear: the index that is ONE PAST the rear element of the queue, this is the location where the next pushed value will be written
 - numElems: the number of elements currently in the queue 
-- There are 5 fully implemented member functions:
+There are 5 fully implemented member functions:
 
 - init: the constructor which initializes an empty queue
 - repr: the printing function the displays the queue’s info in a readable format

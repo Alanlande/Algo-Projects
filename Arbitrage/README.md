@@ -9,7 +9,7 @@
 - dist: the distance from the start vertex
 - prev： the previous vertex in the path
 
-- There are 3 fully implemented member functions:
+There are 3 fully implemented member functions:
 
 - init: this is the constructor function for the Vertex class. It requires an input rank for the vertex, and sets all of the attributes to have reasonable starting values. You will create a new Vertex with a call: v = Vertex(rank).
 - repr: this function is called whenever a Vertex is printed, i.e. when the call print(v) is made. It simply prints the rank of the vertex.
@@ -25,7 +25,7 @@
 - adjList: the adjacency list of Vertex objects
 - adjMat: the adjacency matrix (stored as a 2D list)
 - negCyc: what will ultimately contain the negative cost cycle, stored as a list of ranks (not a list of vertices)
-- There are 6 fully implemented member functions:
+There are 6 fully implemented member functions:
 
 - init: this is the constructor for the Currencies class. It has one optional input: the exchangeNum which selects which set of exchange rates to use (options: 0,1,2,3 - default: 0). This initialization function correctly creates the adjacency list. The negCyc attribute is initialized as an empty list. A new Currencies object can be created with the call c = Currencies(exchangeNum).
 NOTE: the adjacency matrix is created using the rates2mat function. You will have to correctly implement this function (described later).
